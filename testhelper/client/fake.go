@@ -3,8 +3,8 @@ package client
 import (
 	"net/http"
 
-	"github.com/jerakia/go-jerakia"
-	"github.com/jerakia/go-jerakia/testhelper"
+	"github.com/magicmemories/go-jerakia"
+	"github.com/magicmemories/go-jerakia/testhelper"
 )
 
 // Fake token to use.

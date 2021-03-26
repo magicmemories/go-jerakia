@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/jerakia/go-jerakia"
+	"github.com/magicmemories/go-jerakia"
 
-	th "github.com/jerakia/go-jerakia/testhelper"
-	fake "github.com/jerakia/go-jerakia/testhelper/client"
+	th "github.com/magicmemories/go-jerakia/testhelper"
+	fake "github.com/magicmemories/go-jerakia/testhelper/client"
 
 	"github.com/stretchr/testify/assert"
 )

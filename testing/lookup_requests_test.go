@@ -3,9 +3,9 @@ package testing
 import (
 	"testing"
 
-	"github.com/jerakia/go-jerakia"
-	th "github.com/jerakia/go-jerakia/testhelper"
-	fake "github.com/jerakia/go-jerakia/testhelper/client"
+	"github.com/magicmemories/go-jerakia"
+	th "github.com/magicmemories/go-jerakia/testhelper"
+	fake "github.com/magicmemories/go-jerakia/testhelper/client"
 
 	"github.com/stretchr/testify/assert"
 )
