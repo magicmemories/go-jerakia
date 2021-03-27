@@ -89,3 +89,22 @@ func TestLookupHashMerge(t *testing.T) {
 	expected := LookupHashMergeResult
 	assert.Equal(t, expected, *actual)
 }
+
+
+func TestLookupKeyless(t *testing.T) {
+	th.SetupHTTP()
+	defer th.TeardownHTTP()
+	HandleLookupKeyless(t)
+
+	lookupOpts := &jerakia.LookupOpts{
+		Namespace: "keyless",
+	}
+
+	actual, err := jerakia.Lookup(fake.FakeClient(), "", lookupOpts)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	expected := LookupKeylessResult
+	assert.Equal(t, expected, *actual)
+}
